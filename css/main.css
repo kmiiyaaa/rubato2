@@ -2,6 +2,7 @@
 
 aside {
   width: 190px;
+  float: left;
 }
 
 aside #login_box {
@@ -46,7 +47,7 @@ aside #join_serch {
 
 aside #guestbook {
   width: 183px;
-  height: 140px;
+  height: 120px;
   border: 1px solid #cccccc;
   border-radius: 10px;
   background-color: #eeeeee;
@@ -68,4 +69,49 @@ aside #guest_title {
   width: 165px;
   border-bottom: 1px solid #b9b9b9;
   margin-left: 8px;
+}
+
+/*main 콘텐츠*/
+main {
+  width: 758px;
+  border: 1px solid yellow;
+  float: right;
+}
+
+/* 공지, 자유게시판, 유튜브 포함 콘텐츠*/
+main section#notice_free_youtube {
+  height: 250px;
+  margin-top: 15px;
+  position: relative;
+}
+
+main section #notice {
+  /* 공지사항박스 */
+  width: 360px;
+  border: 1px solid red;
+}
+
+main section .latest_title img.latest_img {
+  float: left;
+}
+
+main section .latest_title img.more {
+  float: right;
+}
+
+main section .latest_content img.pen_img {
+  float: left;
+}
+
+main section .latest_content ul.latest_list {
+  float: right;
+}
+
+main section .latest_content ul.latest_list div.subject {
+  float: left;
+  width: 170px;
+}
+
+main section .latest_content ul.latest_list div.date {
+  float: right;
 }

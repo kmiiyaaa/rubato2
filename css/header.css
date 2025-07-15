@@ -1,0 +1,26 @@
+/* 상단 헤더 */
+
+header #main_menu {
+  border: 1px solid red;
+  width: 757px;
+  height: 38px;
+  background-image: url("../images/main_menu_bg.png");
+  background-repeat: no-repeat; /*배경 이미지 반복 제거*/
+}
+
+#logo {
+  float: left;
+}
+
+#top_menu {
+  float: right;
+  color: #797979;
+  padding: 10px;
+}
+
+header #main_menu ul li {
+  display: inline-block; /*마진 적용 시 -> inline말고, inline-block으로 */
+  color: white;
+  font-size: 13px;
+  margin: 8px 30px 0 50px;
+}

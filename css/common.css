@@ -4,8 +4,8 @@
 }
 
 #wrap {
-  border: 1px solid blue;
-  width: 800px;
+  /* border: 1px solid blue; */
+  width: 970px;
   margin: 0 auto; /*가운데 정렬*/
 }
 

@@ -1,0 +1,71 @@
+/* 왼쪽 aside 콘텐츠 */
+
+aside {
+  width: 190px;
+}
+
+aside #login_box {
+  width: 186px;
+  height: 120px;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  background-color: #f3f3f3;
+}
+
+aside #login_title {
+  margin: 10px 0 0 10px;
+}
+
+aside #login_input input {
+  width: 90px;
+  height: 20px;
+  margin: ;
+  border: 1px solid #ddddd;
+}
+
+aside #login_input {
+  float: left;
+}
+
+aside #login_btn {
+  float: left;
+  margin: 3px 0 0 5px;
+}
+
+aside #input_button {
+  margin: 5px 0 0 10px;
+}
+
+aside #login_input li {
+  margin: 2px 0 0 0 0;
+}
+
+aside #join_serch {
+  margin: 20px 0 0 5px;
+}
+
+aside #guestbook {
+  width: 183px;
+  height: 140px;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  background-color: #eeeeee;
+  box-shadow: 2px 2px 5px #dddddd;
+  margin-top: 15px;
+  padding: 10px 0 0 5px;
+}
+
+aside #guestbook li {
+  list-style-image: url(../images/icon_blue.gif);
+  margin-top: 5px;
+}
+
+aside #guestbook ul {
+  margin: 10px 0 0 40px;
+}
+
+aside #guest_title {
+  width: 165px;
+  border-bottom: 1px solid #b9b9b9;
+  margin-left: 8px;
+}

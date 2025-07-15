@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="css/header.css" />
     <link rel="stylesheet" type="text/css" href="css/boardlist_aside.css" />
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <link rel="stylesheet" type="text/css" href="css/boardlist_main.css" />
     <link rel="stylesheet" type="text/css" href="css/footer.css" />
     <link rel="stylesheet" type="text/css" href="css/common.css" />
+    <link rel="stylesheet" type="text/css" href="css/boardview.css" />
+    <link rel="stylesheet" type="text/css" href="css/boardwrite.css" />
 
     <title>클래식 기타 커뮤니티</title>
   </head>
@@ -68,73 +68,38 @@
       <main>
         <img src="images/comm.gif" />
         <h2 id="board_title">자유 게시판</h2>
-        <div id="total_search">
-          <div id="total">▷ 총 3개의 게시물이 있습니다.</div>
-          <div id="search">
-            <div id="search_image">
-              <img src="images/select_search.gif" />
-            </div>
-            <div id="search_select">
-              <select>
-                <option>제목</option>
-                <option>내용</option>
-                <option>글쓴이</option>
-              </select>
-            </div>
-            <div id="search_input">
-              <input type="text" />
-            </div>
-            <div id="search_btn">
-              <img src="images/search_button.gif" />
-            </div>
-          </div>
+        <div>
+          <h2 id="write_title">글쓰기</h2>
         </div>
-        <!-- total search 끝-->
         <table>
-          <tr>
-            <th>번호</th>
-            <th>제목</th>
-            <th>글쓴이</th>
-            <th>일시</th>
-            <th>조회수</th>
+          <tr id="name">
+            <td class="col1">이름</td>
+            <td class="col2"><input type="text" /></td>
           </tr>
-          <tr>
-            <td class="col1">1</td>
-            <td class="col2">
-              <a href="#"> 까스통님의 선물인 보드카가 정말 독하네요!!!</a>
-            </td>
-            <td class="col3">루바토</td>
-            <td class="col4">2025-07-15</td>
-            <td class="col5">15</td>
+          <tr id="subject">
+            <td class="col1">제목</td>
+            <td class="col2"><input type="text" /></td>
           </tr>
-          <tr>
-            <td class="col1">2</td>
-            <td class="col2">
-              <a href="#">까스통님의 선물인 보드카가 정말 독하네요!!!</a>
-            </td>
-            <td class="col3">루바토</td>
-            <td class="col4">2025-07-15</td>
-            <td class="col5">30</td>
+          <tr id="content">
+            <td class="col1">내용</td>
+            <td class="col2"><textarea></textarea></td>
           </tr>
-          <tr>
-            <td class="col1">3</td>
+          <tr id="upload">
+            <td class="col1">업로드 파일</td>
             <td class="col2">
-              <a href="#">까스통님의 선물인 보드카가 정말 독하네요!!!</a>
+              <input type="text" />
+              <input type="file" />
             </td>
-            <td class="col3">루바토</td>
-            <td class="col4">2025-07-15</td>
-            <td class="col5">20</td>
           </tr>
         </table>
-        <div id="bottons">
-          <div class="buttons_col1">◀ 이전 1 다음▶</div>
-          <div class="buttons_col2">
-            <img src="images/list.png" />
-            <a href="#"><img src="images/write.png" /></a>
-          </div>
+
+        <div id="buttons">
+          <a href="#"><img src="images/ok.png" /></a>
+          <a href="board_list.html"><img src="images/list.png" /></a>
         </div>
       </main>
       <div class="clear"></div>
+
       <footer>
         <img id="footer_logo" src="images/footer_logo.gif" />
         <ul id="address">

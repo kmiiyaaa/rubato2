@@ -106,3 +106,17 @@ main table td a:visited {
   text-decoration: none;
   color: #444444;
 }
+
+main #bottons {
+  margin-top: 20px;
+}
+
+main .buttons_col1 {
+  float: left;
+  margin-left: 300px;
+}
+
+main .buttons_col2 {
+  float: right;
+  margin-right: 10px;
+}
